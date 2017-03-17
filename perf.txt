@@ -1,0 +1,16 @@
+
+ Performance counter stats for 'python benchmark.py' (3 runs):
+
+   430,652,006,713      cycles:u                  #    3.525 GHz                      ( +-  0.25% )  (88.89%)
+   121,274,016,581      branches:u                #  992.731 M/sec                    ( +-  0.02% )  (88.89%)
+     5,411,549,682      branch-misses:u           #    4.46% of all branches          ( +-  0.09% )  (88.89%)
+     122161.953768      cpu-clock:u (msec)        #    0.998 CPUs utilized            ( +-  0.60% )
+     6,004,927,630      cache-references:u        #   49.155 M/sec                    ( +-  0.16% )  (88.89%)
+     1,273,595,361      cache-misses:u            #   21.209 % of all cache refs      ( +-  1.44% )  (88.89%)
+   217,704,274,512      L1-dcache-loads:u         # 1782.096 M/sec                    ( +-  0.02% )  (88.89%)
+    10,273,904,971      L1-dcache-load-misses:u   #    4.72% of all L1-dcache hits    ( +-  0.07% )  (88.89%)
+     5,805,597,028      LLC-loads:u               #   47.524 M/sec                    ( +-  0.12% )  (88.89%)
+     1,104,849,642      LLC-load-misses:u         #   19.03% of all LL-cache hits     ( +-  1.49% )  (88.89%)
+
+     122.379897608 seconds time elapsed                                          ( +-  0.56% )
+
